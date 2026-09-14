@@ -998,3 +998,25 @@ footer {
     }
 
 }
+
+
+@media (max-width: 700px) {
+
+    .about-photo-wrapper {
+        width: 100%;
+    }
+
+    .about-photo {
+        height: 420px;
+    }
+
+    .photo-badge {
+        right: 15px;
+        bottom: 20px;
+    }
+
+    .about-info {
+        grid-template-columns: 1fr;
+    }
+
+}
