@@ -29,8 +29,11 @@ ul {
 }
 
 .container {
-    width: min(1120px, 90%);
-    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+    box-sizing: border-box;
 }
 
 .section {
