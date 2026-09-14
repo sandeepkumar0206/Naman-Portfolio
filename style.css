@@ -979,3 +979,22 @@ footer {
     font-size: 14px;
     font-weight: 600;
 }
+
+
+
+@media (max-width: 900px) {
+
+    .about-content,
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .about-photo-wrapper {
+        width: min(440px, 100%);
+    }
+
+    .about-photo {
+        height: 500px;
+    }
+
+}
