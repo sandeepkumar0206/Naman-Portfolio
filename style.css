@@ -1038,7 +1038,7 @@ footer {
 /* Prevent content from creating horizontal overflow */
 .about-text {
     min-width: 0;
-    width: 100%;
+    width: 90%;
 }
 
 .about-text h3 {
